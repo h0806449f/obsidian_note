@@ -1,4 +1,4 @@
-#go #go/package #go/import #go/mainfunction 
+ #go/package #go/import #go/mainfunction 
 
 ```go cpp title:main.go 
 package main

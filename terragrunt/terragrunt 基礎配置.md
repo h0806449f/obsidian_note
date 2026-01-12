@@ -1,4 +1,6 @@
-#IaC
+#IaC #IaC/terragrunt
+
+
 1. Repo 配置
 	1. infra_live
 	2. infra_modules

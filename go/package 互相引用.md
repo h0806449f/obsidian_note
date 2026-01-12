@@ -1,4 +1,4 @@
-#go #go/package 
+ #go/package 
 
 1. repo 結構
 ``` bash

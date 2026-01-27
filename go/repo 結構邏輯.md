@@ -1,4 +1,3 @@
-#go/config 
 
 1. repo 與 package
 	1. go 以 repo 為單位

@@ -1,4 +1,3 @@
-  #IaC/terraform
  
  用於變更 terraform 資源名稱
 

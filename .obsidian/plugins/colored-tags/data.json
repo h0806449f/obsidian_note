@@ -9,16 +9,7 @@
   "accessibility": {
     "highTextContrast": false
   },
-  "knownTags": {
-    "go": 1,
-    "iac": 1,
-    "go/config": 1,
-    "go/import": 2,
-    "go/mainfunction": 3,
-    "go/package": 3,
-    "iac/terraform": 1,
-    "iac/terragrunt": 2
-  },
+  "knownTags": {},
   "tagColors": {},
   "_version": 4
 }

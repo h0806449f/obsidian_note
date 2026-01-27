@@ -1,4 +1,3 @@
-#IaC #IaC/terragrunt
 
 
 1. Repo 配置

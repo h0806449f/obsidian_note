@@ -1,4 +1,3 @@
- #go/package 
 
 1. repo 結構
 ``` bash
@@ -13,18 +12,39 @@ repo/
 ```
 
 2. 引用
-```go cpp title:aws/aws.go
-package aws
+	1. repo 結構
+		```shell
+		hello_go
+├── go.mod
+├── main.go
+└── operator
+    └── main.go
+		```
 
-func init() {}
+
+```go cpp title:operator/main.go
+package operator
+
+func Hello() string {
+
+return "Hello from operator"
+
+}
 ```
 
-```go cpp title:main.go
+```go cpp title:hello_go/main.go
 package main
 
-import "repo/aws"
+import (
+	"fmt"
+	"hello_go/operator"
+)
 
 func main() {
-	aws.Init
+	// single-line comment start with "//"
+	// comments are just for documentation
+	fmt.Println("hello world")
+	
+	fmt.Println(operator.Hello())
 }
 ```

@@ -1,5 +1,5 @@
 
-1. repo 結構
+### repo 結構
 ``` bash
 repo/
 ├── main.go        → package main
@@ -11,17 +11,17 @@ repo/
 
 ```
 
-2. 引用
-	1. repo 結構
-		```shell
-		hello_go
+### 引用
+#### repo 結構
+```shell cpp title:repo.path
+hello_go
 ├── go.mod
 ├── main.go
 └── operator
     └── main.go
-		```
+```
 
-
+#### operator
 ```go cpp title:operator/main.go
 package operator
 
@@ -32,6 +32,7 @@ return "Hello from operator"
 }
 ```
 
+#### hello_go
 ```go cpp title:hello_go/main.go
 package main
 
